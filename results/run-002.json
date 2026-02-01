@@ -1,0 +1,17 @@
+{
+  "participants": {
+    "agent_under_test": "019c167e-e86c-7280-a642-1dca22dd3222"
+  },
+  "results": [
+    {
+      "pass_rate": 0.241,
+      "time_used": 44.5,
+      "max_score": 1.0
+    },
+    {
+      "pass_rate": 0.241,
+      "time_used": 46.1,
+      "max_score": 1.0
+    }
+  ]
+}

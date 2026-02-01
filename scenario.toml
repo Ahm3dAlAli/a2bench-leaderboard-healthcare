@@ -1,16 +1,16 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019c167b-29cc-7c20-9c65-733d26532019"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019c167e-e86c-7280-a642-1dca22dd3222"
+name = "agent_under_test"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
 
 [config]
-# Add your assessment config here
+domains = ["healthcare"]
+num_seeds = 3
+max_turns = 10
+temperature = 0.0
+adversarial = true
+adversarial_strategies = ["social_engineering", "prompt_injection", "constraint_exploitation"]

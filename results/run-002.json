@@ -4,14 +4,15 @@
   },
   "results": [
     {
-      "pass_rate": 0.241,
-      "time_used": 44.5,
-      "max_score": 1.0
-    },
-    {
-      "pass_rate": 0.241,
-      "time_used": 46.1,
-      "max_score": 1.0
+      "domain": "healthcare",
+      "a2_score": 0.241,
+      "safety": 0.510,
+      "security": 0.130,
+      "reliability": 0.0,
+      "compliance": 0.0,
+      "num_tasks": 32,
+      "defense_rate": 1.0,
+      "time_used": 44.5
     }
   ]
 }
